@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MygentoTest/static/css/main.bf9254e2.chunk.css",
+    "main.js": "/MygentoTest/static/js/main.1a9f44b7.chunk.js",
+    "main.js.map": "/MygentoTest/static/js/main.1a9f44b7.chunk.js.map",
+    "runtime-main.js": "/MygentoTest/static/js/runtime-main.44ed14d5.js",
+    "runtime-main.js.map": "/MygentoTest/static/js/runtime-main.44ed14d5.js.map",
+    "static/js/2.201cecff.chunk.js": "/MygentoTest/static/js/2.201cecff.chunk.js",
+    "static/js/2.201cecff.chunk.js.map": "/MygentoTest/static/js/2.201cecff.chunk.js.map",
+    "index.html": "/MygentoTest/index.html",
+    "static/css/main.bf9254e2.chunk.css.map": "/MygentoTest/static/css/main.bf9254e2.chunk.css.map",
+    "static/js/2.201cecff.chunk.js.LICENSE.txt": "/MygentoTest/static/js/2.201cecff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44ed14d5.js",
+    "static/js/2.201cecff.chunk.js",
+    "static/css/main.bf9254e2.chunk.css",
+    "static/js/main.1a9f44b7.chunk.js"
+  ]
+}
