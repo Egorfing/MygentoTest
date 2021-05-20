@@ -1,0 +1,32 @@
+.modal{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(57, 57, 57, 0.35);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transform: scale(0);
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(57, 57, 57, 0.35);
+}
+.modal.active{
+  transform: scale(1);
+
+}
+.infoAgree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 16px;
+}
+button{
+  margin: 16px;
+}

@@ -1,0 +1,150 @@
+
+h1{
+  font-size: 40px;
+  margin: 108px 16px 0 16px;
+}
+
+h3{
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+form{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 8px;
+}
+.formMain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  min-width: 343px;
+  position: relative;
+}
+
+@media (min-width: 380px) {
+  .form{
+    /* margin-right: 80px; */
+  }
+.form .input{
+  width: 256px;
+  /* margin-right: 100px; */
+}
+
+.fileAdd{
+  /* margin-right: 1500px; */
+  margin-top: 41px;
+  width: 256px;
+}
+.pdfName{
+  margin-top: 41px;
+  width: 256px;
+}
+}
+
+.form label{
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.form .input{
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 40px;
+  padding-left: 12px;
+  margin-right: 16px;
+  min-width: 343px;
+}
+.fileAdd{
+  box-sizing: border-box;
+  min-width: 343px;
+  margin-right: 16px;
+  height: 40px;
+  border: 1px dashed #D9D9D9;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  position: relative;
+  color: #595959;
+}
+.pdfName{
+  box-sizing: border-box;
+  min-width: 343px;
+  margin-right: 16px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  color: #0059ff;
+  text-decoration: underline;
+}
+.red{
+  color: red;
+}
+.spanGender{
+position: absolute;
+left: 65px;
+top: -10px;
+}
+.fileAdd input{
+  display: none;
+}
+.pdfName input{
+  display: none;
+}
+.plus{
+  position: absolute;
+  left: 47px;
+  color: #595959;
+}
+.plus1{
+  position: absolute;
+  left: 40px;
+  color: #595959;
+}
+
+.flexRow{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: -40px;
+}
+.flexRow label{
+  margin-left: 5px;
+  margin-right: 40px;
+}
+.spanGender{
+  margin-top: 40px;
+
+}
+button{
+  font-size: 16px;
+  height: 40px;
+  padding-left: 12px;
+  width: 343px;
+  margin-top: 24px;
+  color: white;
+  border: none;
+  background-color: #1890FF;
+}
+button:disabled{
+  background-color:#E8E8E8;
+  color: #BCBCBC;
+}
+.link{
+  color: #0059ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
